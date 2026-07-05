@@ -7,9 +7,9 @@ const HeroPage = () => {
             hero page
             <br/>
              <Button>Hero Button</Button>
-               <Button  variant="outline">Outline</Button>
-              <Button  variant="danger">
-                    Danger
+               <Button  variant="secondary">Hero Button</Button>
+              <Button  variant="outline">
+                    Hero Button
                 </Button>
         </div>
     );

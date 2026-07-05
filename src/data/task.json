@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete HeroUI setup",
+      "description": "Install HeroUI and configure the project.",
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2026-07-08",
+      "category": "Development"
+    },
+    {
+      "id": 2,
+      "title": "Build Login Page",
+      "description": "Create a responsive login page with validation.",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-07-10",
+      "category": "Frontend"
+    },
+    {
+      "id": 3,
+      "title": "Create Dashboard",
+      "description": "Develop the main dashboard with cards and charts.",
+      "status": "Pending",
+      "priority": "Medium",
+      "dueDate": "2026-07-12",
+      "category": "Frontend"
+    },
+    {
+      "id": 4,
+      "title": "Implement Server Actions",
+      "description": "Add CRUD operations using Next.js Server Actions.",
+      "status": "Pending",
+      "priority": "High",
+      "dueDate": "2026-07-15",
+      "category": "Backend"
+    },
+    {
+      "id": 5,
+      "title": "Setup Authentication",
+      "description": "Configure NextAuth authentication.",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-07-16",
+      "category": "Authentication"
+    },
+    {
+      "id": 6,
+      "title": "Add Dark Mode",
+      "description": "Implement light and dark theme switching.",
+      "status": "Pending",
+      "priority": "Low",
+      "dueDate": "2026-07-18",
+      "category": "UI"
+    },
+    {
+      "id": 7,
+      "title": "Optimize Images",
+      "description": "Use Next.js Image component for optimization.",
+      "status": "Completed",
+      "priority": "Medium",
+      "dueDate": "2026-07-05",
+      "category": "Performance"
+    },
+    {
+      "id": 8,
+      "title": "Write Unit Tests",
+      "description": "Create unit tests for components.",
+      "status": "Pending",
+      "priority": "Medium",
+      "dueDate": "2026-07-20",
+      "category": "Testing"
+    },
+    {
+      "id": 9,
+      "title": "Deploy to Vercel",
+      "description": "Deploy the application to Vercel.",
+      "status": "Pending",
+      "priority": "High",
+      "dueDate": "2026-07-22",
+      "category": "Deployment"
+    },
+    {
+      "id": 10,
+      "title": "Update Documentation",
+      "description": "Write project setup and usage documentation.",
+      "status": "Completed",
+      "priority": "Low",
+      "dueDate": "2026-07-04",
+      "category": "Documentation"
+    }
+  ]
+}
