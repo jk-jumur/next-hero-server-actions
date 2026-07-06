@@ -1,5 +1,17 @@
-import data from "../data/task.json"
+import data from "../data/task.json";
 
-  export const getTasks = async() => {
-      return data.tasks
-}
+const tasks = data.tasks;
+
+export const getTasks = async () => {
+  return tasks;
+};
+
+export const postTask = async (newTask) => {
+  newTask.id = tasks.length + 1;
+  tasks.push(newTask);
+
+  return {
+    ok: true,
+    message: "task added successfully",
+  };
+};
