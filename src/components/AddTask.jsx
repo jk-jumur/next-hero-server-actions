@@ -18,7 +18,7 @@ export function AddTask({createATask}) {
               <Modal.Heading>Add a task</Modal.Heading>
               
             </Modal.Header>
-            <Modal.Body className="p-6">
+            <Modal.Body className="p-6"></Modal.Body>
               <Surface variant="default">
                 <form action={createATask} className="flex flex-col gap-4">
                   <TextField className="w-full" name="name" type="text" variant="secondary">
